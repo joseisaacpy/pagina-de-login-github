@@ -16,6 +16,9 @@ header {
   height: 50px;
 }
 /* Textos */
+label {
+  color: aliceblue;
+}
 h1 {
   color: aliceblue;
   font-size: 45px;
@@ -37,11 +40,12 @@ p a:hover {
 input {
   box-sizing: border-box;
   height: 50px;
-  width: 250px;
+  width: 270px;
   padding-left: 10px;
   margin: 10px;
 }
 input::placeholder {
+  font-size: 15px;
   text-align: left;
   padding-left: 10px;
 }
@@ -53,7 +57,8 @@ button.botao {
   font-weight: bold;
   border-radius: 10px;
   height: 50px;
-  width: 250px;
+  width: 270px;
+  transition: 0.3s;
 }
 button#entrar {
   background-color: rgb(124, 8, 8);
@@ -62,10 +67,14 @@ button:hover {
   cursor: pointer;
 }
 button#cod-acesso {
-  background-color: rgb(32, 26, 26);
+  font-size: 18px;
+  background-color: rgba(218, 205, 236, 0.5);
 }
 button#cod-acesso:hover {
   opacity: 0.8;
+}
+input#checkbox {
+  height: 18px;
 }
 /* Ids */
 div#principal {
