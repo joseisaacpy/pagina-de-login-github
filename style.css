@@ -68,7 +68,7 @@ button:hover {
 }
 button#cod-acesso {
   font-size: 18px;
-  background-color: rgba(218, 205, 236, 0.5);
+  background-color: rgba(218, 205, 236, 0.6);
 }
 button#cod-acesso:hover {
   opacity: 0.8;
